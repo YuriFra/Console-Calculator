@@ -1,20 +1,20 @@
 ﻿using System;
-using System.Reflection;
 
 namespace Console_Calculator
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             Run();
         }
-        
-        static void Run() {
+
+        private static void Run() {
             
             double firstNumber = 0;
             double secondNumber = 0;
             
+            Console.WriteLine("\n------------------\r");
             Console.WriteLine("Console Calculator\r");
             Console.WriteLine("------------------\n");
             
